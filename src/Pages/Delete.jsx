@@ -1,5 +1,5 @@
 import React from 'react';
-import { domain } from './URLS.JSX';
+import { domain } from './URLS';
 
 export const DeleteGen = async ({ url, token, ParametroId, NameDel, setModalInfo, setIsModalOpen }) => {
     try {

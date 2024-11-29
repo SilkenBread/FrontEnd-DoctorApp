@@ -2,7 +2,7 @@ import { useState } from 'react';
 import DataTable from 'react-data-table-component';
 
 import { Edit2, Trash2 } from 'lucide-react';
-import { domain } from './URLS.JSX';
+// import { domain } from './URLS.JSX';
 
 import { FuncionsCrud } from './FuncionsCrud';
 import { DeleteGen } from './Delete';
@@ -10,6 +10,7 @@ import ModalGen from './ModalGen';
 import FormModal from './FormModal';
 import crudConfig from './CrudConfig';
 import Swal from 'sweetalert2';
+import { domain } from './URLS';
 
 const CrudComponent = ({ title, href, url, columnsConfig, fetchEndpoint, deleteConfig, data }) => {
 
