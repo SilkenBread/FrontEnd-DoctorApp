@@ -1,4 +1,5 @@
-import { domain } from "./URLS.JSX";
+import { domain } from "./URLS";
+
 
 export const showData = async (METHOD, TOKEN, API) => {
     try {
@@ -10,8 +11,8 @@ export const showData = async (METHOD, TOKEN, API) => {
         headers: myHeaders,
         redirect: "follow",
       };
-  
       const response = await fetch(`${domain}${API}`, requestOptions);
+      
       const data = await response.json();
       return data;
     } catch (error) {
@@ -28,7 +29,6 @@ export const showData = async (METHOD, TOKEN, API) => {
         headers: myHeaders,
         redirect: "follow",
       };
-  
       const response = await fetch(`${domain}${API}`, requestOptions);
       const data = await response.json();
       return data;

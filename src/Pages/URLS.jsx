@@ -1,1 +1,1 @@
-export const domain = 'https://hoze.emcali.net.co';
+export const domain = import.meta.env.VITE_DOMAIN;
