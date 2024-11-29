@@ -2,7 +2,6 @@ import { useState } from 'react';
 import DataTable from 'react-data-table-component';
 
 import { Edit2, Trash2 } from 'lucide-react';
-// import { domain } from './URLS.JSX';
 
 import { FuncionsCrud } from './FuncionsCrud';
 import { DeleteGen } from './Delete';
